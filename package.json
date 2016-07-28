@@ -1,0 +1,30 @@
+{
+  "name": "anyworkify",
+  "version": "0.0.0",
+  "description": "Unified API to run webworkers in browsers or fake workers in node environments",
+  "main": "index.js",
+  "scripts": {
+    "test": "semistandard && tape ./test.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisinajar/anyworkify.git"
+  },
+  "author": "Chris Vickery <chrisinajar@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrisinajar/anyworkify/issues"
+  },
+  "homepage": "https://github.com/chrisinajar/anyworkify#readme",
+  "dependencies": {
+    "fakeworkify": "^0.2.0",
+    "global": "^4.3.0",
+    "webworkify": "^1.3.0"
+  },
+  "devDependencies": {
+    "proxyquire": "^1.7.10",
+    "semistandard": "^8.0.0",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.0"
+  }
+}
