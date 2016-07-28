@@ -1,6 +1,6 @@
 {
   "name": "anyworkify",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Unified API to run webworkers in browsers or fake workers in node environments",
   "main": "index.js",
   "scripts": {
